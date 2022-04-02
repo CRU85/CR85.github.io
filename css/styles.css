@@ -48,7 +48,7 @@ nav{
   bottom: 50px;
 }
 
-h1, h2, .button{
+h1, h3, .button{
   text-transform: uppercase;
 }
 
@@ -71,7 +71,20 @@ h1{
 
 h2{
   color: #ffaa00;
-  font-size: 1.6em;
+  font-size: 1.8em;
+	font-weight:normal;
+}
+
+h3{
+	color: #006dbf;
+	font-size: 1.6em;
+  padding:50px 10px 50px 10px;
+}
+
+h2 img{
+	padding-left:10px;
+	vertical-align: bottom;
+	width:70px;
 }
 
 a{
@@ -83,7 +96,7 @@ header a{margin-top: 25px;}
 
 .button{
   color: #fff;
-  font-size: 0.8em;
+  font-size: 1em;
   padding: 10px;
   border-radius: 100px;
   background: rgba(0,0,0,0.5);
@@ -92,12 +105,12 @@ header a{margin-top: 25px;}
 }
 
 .button:hover {
-  background: #77b300;
+  background: #006dbf;
   transition: 0.5s ease;
 }
 
 .button:hover:first-child {
-  background: #006dbf;
+  background: #77b300;
   transition: 0.5s ease;
 }
 
@@ -123,11 +136,6 @@ header a{margin-top: 25px;}
 }
 
 @media screen and (max-width: 770px) {#folio {min-height: unset;}}
-
-#folio h2{
-	color: #006dbf;
-  padding:50px 10px 50px 10px;
-}
 
 #images{font-size: 0px;}
 
