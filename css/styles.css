@@ -1,61 +1,61 @@
 /* Global */
 
 * {
-  margin: 0;
-  padding: 0;
-  font-family: "Montserrat", Arial;
-  text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", Arial;
+    text-align: center;
 }
 
 /* Header */
 
 header{
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  /* background: #000 url(../img/header.jpg) no-repeat center center fixed; */
-  /* background-size: cover; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* background: #000 url(../img/header.jpg) no-repeat center center fixed; */
+    /* background-size: cover; */
 }
 
 @media screen and (max-width: 770px) {header {height: 500px;}}
 
 #video-mask{
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: -1;
-  background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .video{
-  width: 1920px;
-  position: fixed;
-  z-index: -2;
+    width: 1920px;
+    position: fixed;
+    z-index: -2;
 }
 
 @media screen and (max-width: 770px) {.video {height: 500px;}}
 
 nav{
-  display: flex;
-  flex-direction: inline;
+    display: flex;
+    flex-direction: inline;
 }
 
 .arrow{
-  position: absolute;
-  bottom: 50px;
+    position: absolute;
+    bottom: 50px;
 }
 
 h1, h3, .button{
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 @keyframes ghost {
-  0%{opacity: 0;}
-  50%{opacity: 0;}
-  100%{opacity: 1;}
+    0%{opacity: 0;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
 }
 
 header h1{animation: ghost 1s;}
@@ -63,22 +63,22 @@ header h2{animation: ghost 2s;}
 header a{animation: ghost 3s;}
 
 h1{
-  color: #fff;
-  font-size: 2.8em;
-  line-height: 1.0em;
-  padding-bottom: 10px;
+    color: #fff;
+    font-size: 2.8em;
+    line-height: 1.0em;
+    padding-bottom: 10px;
 }
 
 h2{
-  color: #ffaa00;
-  font-size: 1.8em;
+    color: #ffaa00;
+    font-size: 1.8em;
 	font-weight:normal;
 }
 
 h3{
 	color: #006dbf;
 	font-size: 1.6em;
-  padding:50px 10px 50px 10px;
+    padding:50px 10px 50px 10px;
 }
 
 h2 img{
@@ -88,51 +88,51 @@ h2 img{
 }
 
 a{
-  color: #fff;
-  text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
 
 header a{margin-top: 25px;}
 
 .button{
-  color: #fff;
-  font-size: 1em;
-  padding: 10px;
-  border-radius: 100px;
-  background: rgba(0,0,0,0.5);
-  transition: 0.5s ease;
+    color: #fff;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 100px;
+    background: rgba(0,0,0,0.5);
+    transition: 0.5s ease;
 	min-width: 1.2em;
 }
 
 .button:hover {
-  background: #006dbf;
-  transition: 0.5s ease;
+    background: #006dbf;
+    transition: 0.5s ease;
 }
 
 .button:hover:first-child {
-  background: #77b300;
-  transition: 0.5s ease;
+    background: #77b300;
+    transition: 0.5s ease;
 }
 
 @keyframes upanddown {
-  0%{transform: translate();}
-  50%{transform: translate(0px, 10px);}
-  100%{transform: translate();}
+    0%{transform: translate();}
+    50%{transform: translate(0px, 10px);}
+    100%{transform: translate();}
 }
 
 #next:hover{
-  animation: upanddown 0.5s;
+    animation: upanddown 0.5s;
 }
 
 /* Folio */
 
 #folio{
-  min-height: 770px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: #fff;
+    min-height: 770px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
 }
 
 @media screen and (max-width: 770px) {#folio {min-height: unset;}}
@@ -140,18 +140,20 @@ header a{margin-top: 25px;}
 #images{font-size: 0px;}
 
 #images img{
-  width: 25%;
-  transition: 0.5s ease;
+    width:24%;
+    margin:4px;
+    border-radius: 8px;
+    transition: 0.5s ease;
 }
 
 #images img:hover {
-  /* opacity: 0.5; */
-  transform: scale(1.2);
-  transition: 0.5s ease;
+    /* opacity: 0.5; */
+    transform: scale(1.1);
+    transition: 0.5s ease;
 }
 
-@media screen and (max-width: 750px) {#images img {width: 50%;}}
-@media screen and (max-width: 400px) {#images img {width: 100%;}}
+@media screen and (max-width: 750px) {#images img {width: 47%;}}
+@media screen and (max-width: 400px) {#images img {width: 95%;}}
 
 #folio .button{margin:50px 10px 50px 10px;}
 
@@ -160,11 +162,11 @@ header a{margin-top: 25px;}
 /* Footer */
 
 footer{
-  padding: 25px;
+    padding: 25px;
 	background: white;
 }
 
 footer p{
-  color: #999;
-  font-size: 0.5em;
+    color: #999;
+    font-size: 0.5em;
 }
