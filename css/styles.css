@@ -44,12 +44,8 @@ a{
 
 .white{color: hsla(0,0%,100%,1.0);}
 
-.gray95{color: hsla(0,0%,95%,1.0);}
-.gray90{color: hsla(0,0%,90%,1.0);}
-.gray85{color: hsla(0,0%,85%,1.0);}
-.gray60{color: hsla(0,0%,60%,1.0);}
-.gray40{color: hsla(0,0%,40%,1.0);}
-.gray20{color: hsla(0,0%,20%,1.0);}
+.gray45{color: hsla(0,0%,40%,1.0);}
+.gray35{color: hsla(0,0%,40%,1.0);}
 
 .black{color: hsla(0,0%,0%,1.0);}
 
@@ -96,7 +92,7 @@ header{
     align-items: center;
     color:white;
     height: 300px;  
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../img/freepik_laptop.jpg) no-repeat center; 
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../img/laptop-sm.jpg) no-repeat center; 
     background-size: cover;
 }
 
