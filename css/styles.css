@@ -78,11 +78,11 @@ nav div{
     margin: 8px;
 }
 
-nav div:last-child{
-    justify-content: flex-end;
-}
-
 nav img{margin: 8px;}
+
+nav a:first-child{font-size: 0px;}
+
+nav div:last-child{justify-content: flex-end;}
 
 /* Header */
 
@@ -135,13 +135,13 @@ header h2{animation: ghost 2s;}
 
 /* Projects */
 
-#projects{
+main{
     display: flex;
     justify-content: center;
     background: white;
 }
 
-#projects-list{
+#projects{
     display: flex;
     flex-wrap: wrap;
     margin: 8px;
@@ -176,10 +176,6 @@ header h2{animation: ghost 2s;}
     transition: 0.5s ease;
 }
 
-#next:hover{
-    
-}
-
 .project-title{
     display: flex;
     align-items: center;
@@ -201,6 +197,20 @@ header h2{animation: ghost 2s;}
 footer p{
     text-align: center;
     margin: 32px 16px;
+}
+
+.button{
+    color: hsla(205,100%,40%,1.0);
+    font-weight: 700;
+    border: 1px solid hsla(205,100%,40%,1.0);
+    padding: 8px 16px;
+    border-radius: 60px;
+    background: white;
+}
+
+.button:hover{
+    color: white; 
+    background: hsla(205,100%,40%,1.0);
 }
 
 /* Modal */
